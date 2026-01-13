@@ -389,7 +389,7 @@ Topic name | Published by | Subscribed by | Used for | Implementation | Schema
 order | master control | AGV | Communication of orders from master control to the mobile robot | mandatory | order.schema
 instantActions | master control | AGV | Communication of the actions that are to be executed immediately | mandatory | instantActions.schema
 state | AGV | master control | Communication of the AGV state | mandatory | state.schema
-visualization | AGV | Visualization systems | Higher frequency of position topic for visualization purposes only | optional | visualization.schema
+visualization | AGV | visualization systems | Higher frequency of position topic for visualization purposes only | optional | visualization.schema
 connection | Broker/AGV | master control | Indicates when AGV connection is lost, not to be used by master control for checking the vehicle health, added for an MQTT protocol level check of connection | mandatory | connection.schema 
 factsheet | AGV | master control | Parameters or vendor-specific information to assist set-up of the AGV in master control | mandatory | factsheet.schema
 zoneSet | master control | mobile robot | Update zone sets on the mobile robot | optional | zoneSet.schema
